@@ -1,12 +1,8 @@
 .logosCineAr img {
   height: 40px;
   margin: 40px;
-  border-right: #404040 1px solid;
 }
 
-#root > footer > div > ul > li:nth-child(3) > a > img {
-  border-width: 0;
-}
 .logosCineAr ul {
   display: flex;
   justify-content: center;
@@ -15,4 +11,18 @@
 .DDA p {
   color: white;
   font-size: 12px;
+}
+
+.endLogos ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.parte2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.endLogos img {
+  margin: 1rem;
 }
